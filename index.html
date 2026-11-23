@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ComidaRápida PU | Delivery</title>
+<meta name="theme-color" content="#D32F2F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="minha-loja.css">
+<!-- PWA Básico -->
+<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22ComidaRapida%20PU%22%2C%22short_name%22%3A%22ComidaRapida%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23FAFAFA%22%2C%22theme_color%22%3A%22%23D32F2F%22%7D">
+</head>
+<body>
+  <div id="app"></div>
+  <div id="toasts"></div>
+  <div id="modalRoot"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+  <script src="geo.js"></script>
+  <script src="home-food.js"></script>
+  <script src="minha-loja.js"></script>
+</body>
+</html>
